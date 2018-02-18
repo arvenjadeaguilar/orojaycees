@@ -3,10 +3,12 @@ import graphql from 'graphql';
 import Content, { HTMLContent } from '../components/Content';
 import Link from "gatsby-link";
 import FaBars from 'react-icons/lib/fa/bars';
+import Footer from '../components/Footer';
+import Modal from '../components/NavModal';
 
 export const SchedulePageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-
+   
   return (
     <section>
       <div className="topScene">
@@ -15,20 +17,17 @@ export const SchedulePageTemplate = ({ title, content, contentComponent }) => {
             <Link to="/" className="navBrand">
               <img alt="logo" src={require('../img/logo.svg')} />
             </Link>
-            <div className="navBars" onClick={()=>this.openNav()}>
-              <FaBars />
-            </div>
             <div className="nav">
-              <Link to="/about" className="navItem">
-                About us
-              </Link>
-              <Link to="/companies" className="navItem">
+              <Link to="/#projecs" className="navItem">
                 Projects
               </Link>
-              <Link to="/capital" className="navItem">
+              <Link to="/#about" className="navItem">
+                About us
+              </Link>
+              <Link to="/schedule" className="navItem">
                 Schedule of Activities
               </Link>
-              <Link to="/contact" className="navItem">
+              <Link to="/#contactUs" className="navItem">
                 Contact Us
               </Link>
             </div>
@@ -61,13 +60,14 @@ export const SchedulePageTemplate = ({ title, content, contentComponent }) => {
           </div>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 };
 
 export default ({ data }) => {
   const { markdownRemark: post } = data;
-
+  
   return (<SchedulePageTemplate
     contentComponent={HTMLContent}
     title={post.frontmatter.title}

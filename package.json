@@ -19,6 +19,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-big-calendar": "^0.18.0",
+    "react-event-calendar": "^0.3.0",
     "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
     "react-load-script": "0.0.6",

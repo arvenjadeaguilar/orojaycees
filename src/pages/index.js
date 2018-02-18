@@ -15,6 +15,7 @@ import FaTwitterSquare from 'react-icons/lib/fa/twitter-square';
 import FaInstagramSquare from 'react-icons/lib/fa/instagram';
 import FaMobile from 'react-icons/lib/fa/phone-square';
 import FaMail from 'react-icons/lib/fa/envelope';
+import NavModal from "../components/NavModal";
 
 export default class IndexPage extends Component {
   constructor(){
@@ -166,7 +167,7 @@ export default class IndexPage extends Component {
                     About us
                   </a>
                   
-                  <Link to="/capital" className="navItem">
+                  <Link to="/schedule" className="navItem">
                     Schedule of Activities
                   </Link>
                   {/* <Link to="/studio" className="navItem">
@@ -477,41 +478,7 @@ export default class IndexPage extends Component {
           </div> 
            */}
           <Footer />
-          <div id="myModal" className={`navModal ${this.state.modalOpen?'open':''}`}>
-            <div className="navModal-content">
-              <span className="navModalClose" onClick={()=>this.closeNav()}>&times;</span>      
-              <div className="navOptions">
-                <a href="/#projects" onClick={()=>this.closeNav()} className="link">
-                  Projects
-                </a>
-                <a href="/#about" onClick={()=>this.closeNav()} className="link">
-                  About Us
-                </a>
-                <Link to="/capital" className="link" >
-                  Schedule of Activities
-                </Link>
-                <a href="/#contactUs" onClick={()=>this.closeNav()}  className="link">
-                  Contact Us
-                </a>
-                
-              </div>
-              <div className="navSocialMedia">
-                <div className="label">
-                  Follow Us: 
-                </div>
-                <a href="https://www.facebook.com/highoutputhq/" className="media">
-                  Facebook
-                </a> &nbsp; &#183; &nbsp;
-                <a href="https://twitter.com/highoutputhq" className="media">
-                  Instagram
-                </a>
-                  &nbsp; &#183; &nbsp;
-                <a href="https://www.linkedin.com/company/high-output-ventures/" className="media">
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </div>
+          <Modal isOpen={this.state.modalOpen} onClose={this.closeNav.bind(this)}/>
         </div>
       </div>
     );
