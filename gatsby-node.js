@@ -1,5 +1,16 @@
 const path = require("path");
 
+// exports.modifyWebpackConfig = function({config, env}) {
+//   config.merge({
+//     resolve: {
+//       alias: {
+//         react: __dirname + '/node_modules/react'
+//     },
+//     }
+//   });
+//   return config;
+// }
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
@@ -22,6 +33,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               image
               heading
               description
+              
               intro {
                 blurbs {
                   image
