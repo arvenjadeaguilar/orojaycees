@@ -18,7 +18,7 @@ export const SchedulePageTemplate = ({ title, content, contentComponent }) => {
               <img alt="logo" src={require('../img/logo.svg')} />
             </Link>
             <div className="nav">
-              <Link to="/#projecs" className="navItem">
+              <Link to="/#projects" className="navItem">
                 Projects
               </Link>
               <Link to="/#about" className="navItem">

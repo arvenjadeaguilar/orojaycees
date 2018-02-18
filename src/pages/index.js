@@ -227,7 +227,7 @@ export default class IndexPage extends Component {
                   {/* We work with entrepreneurs on develop their concepts and ideas into companies. Ideally we want to work with domain experts who have a deep understanding of their respective domain. */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/studio')}>Join Us</button>
+                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
                 </div>
               </div>
               <div className="item">
@@ -242,7 +242,7 @@ export default class IndexPage extends Component {
                 {/* We have a seed fund which ideally provides capital as the first external investor. Our role being to capitalize the business and play an active role in the acceleration of it’s growth.  */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/capital')}>Join Us</button>
+                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
                 </div>
               </div>
               <div className="item">
@@ -257,7 +257,7 @@ export default class IndexPage extends Component {
                   {/* We have developed a process called High Ouput MVP with a collective of entrepreneurs. This service provides early stage startups with the tboost to get their product to market quickly and efficiently. */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/capital')}>Join Us</button>
+                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
                 </div>
               </div>
             </div>
@@ -333,8 +333,9 @@ export default class IndexPage extends Component {
               </div>
               <div className="panelSection mision">
                 <div className="panel">
+                  <img alt="mission" src={require('../img/mission@1x.png')} srcSet={`${require('../img/mission@1x.png')} 1x, ${require('../img/mission@2x.png')} 2x`}  /> 
                   <h2 id="mission" className="title">
-                    <img alt="mission" src={require('../img/mission@1x.png')} srcSet={`${require('../img/mission@1x.png')} 1x, ${require('../img/mission@2x.png')} 2x`}  /> Mission
+                    Mission
                   </h2>
                   <p className="desc">
                     To be provide development opportunities that empower young people to create positive change.
@@ -343,8 +344,9 @@ export default class IndexPage extends Component {
               </div>
               <div className="panelSection vision">
                 <div className="panel">
+                  <img alt="mission" src={require('../img/vision@1x.png')} srcSet={`${require('../img/vision@1x.png')} 1x, ${require('../img/vision@2x.png')} 2x`}  />
                   <h2 id="vision" className="title">
-                    <img alt="mission" src={require('../img/vision@1x.png')} srcSet={`${require('../img/vision@1x.png')} 1x, ${require('../img/vision@2x.png')} 2x`}  /> Vision
+                    Vision
                   </h2>
                   <p className="desc">
                     To be the leading global network of young active citizens.
