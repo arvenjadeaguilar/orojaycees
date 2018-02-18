@@ -970,7 +970,7 @@ $spacer-2xl: 160px;
         @media (max-width: 767px)  {
           margin-top: 16px;
         }	
-        button{
+        button, .button{
           font-family: "HK Grotesk";	
           font-size: 16px;	
           font-weight: 600;	
@@ -2155,6 +2155,10 @@ $spacer-2xl: 160px;
         @media (max-width: 767px)  {
           font-size: 18px;
         }	
+        a{
+          color:#fff;
+          text-decoration: none;
+        }
       }
     }
   }

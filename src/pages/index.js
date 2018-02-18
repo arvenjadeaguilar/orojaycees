@@ -167,9 +167,9 @@ export default class IndexPage extends Component {
                     About us
                   </a>
                   
-                  <Link to="/schedule" className="navItem">
+                  <a href="https://calendar.google.com/calendar/embed?src=jci.cdo2018%40gmail.com&ctz=Asia%2FManila" target="_blank" className="navItem">
                     Schedule of Activities
-                  </Link>
+                  </a>
                   {/* <Link to="/studio" className="navItem">
                     Studio
                   </Link> */}
@@ -227,7 +227,7 @@ export default class IndexPage extends Component {
                   {/* We work with entrepreneurs on develop their concepts and ideas into companies. Ideally we want to work with domain experts who have a deep understanding of their respective domain. */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
+                  <a className="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeFzqVmOsApssKdVq-UlY7dyv5f_x_SWx-wwicSgmWGWjqj7A/viewform?fbzx=-4693387970005211000" target="_blank">Join Us</a>
                 </div>
               </div>
               <div className="item">
@@ -242,7 +242,7 @@ export default class IndexPage extends Component {
                 {/* We have a seed fund which ideally provides capital as the first external investor. Our role being to capitalize the business and play an active role in the acceleration of it’s growth.  */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
+                  <a className="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeFzqVmOsApssKdVq-UlY7dyv5f_x_SWx-wwicSgmWGWjqj7A/viewform?fbzx=-4693387970005211000" target="_blank">Join Us</a>
                 </div>
               </div>
               <div className="item">
@@ -257,7 +257,7 @@ export default class IndexPage extends Component {
                   {/* We have developed a process called High Ouput MVP with a collective of entrepreneurs. This service provides early stage startups with the tboost to get their product to market quickly and efficiently. */}
                 </div>
                 <div className="actions">
-                  <button onClick={()=>this.goTo('/#contactUs')}>Join Us</button>
+                  <a className="button" href="https://docs.google.com/forms/d/e/1FAIpQLSeFzqVmOsApssKdVq-UlY7dyv5f_x_SWx-wwicSgmWGWjqj7A/viewform?fbzx=-4693387970005211000" target="_blank">Join Us</a>
                 </div>
               </div>
             </div>
@@ -360,19 +360,19 @@ export default class IndexPage extends Component {
               <div className="detailsSection">
                 <h2>Contact Us</h2>
                 <p>
-                  +639150043626 <FaMobile/>
+                  <a alt="facebook" href="tel:+639173798803">+639173798803 <FaMobile/></a>
                 </p>
                 <p>
-                  arvenjadeaguilar@gmail.com <FaMail/>
+                <a alt="facebook" href="mailto:jci.cdo2018@gmail.com">jci.cdo2018@gmail.com <FaMail/></a>
                 </p>
                 <p>
-                  Facebook <FaFacebookSquare/>
+                  <a alt="facebook" href="https://www.facebook.com/OroJaycees/">Facebook <FaFacebookSquare/></a>
                 </p>
                 <p>
-                  Twitter <FaTwitterSquare/>
+                <a alt="twitter" href="https://twitter.com/OroJaycees">Twitter <FaTwitterSquare/></a>
                 </p>
                 <p>
-                  Instagram <FaInstagramSquare/>
+                <a alt="instagram" href="https://www.instagram.com/orojaycees/">Instagram <FaInstagramSquare/></a>
                 </p>
               </div>
             </div>

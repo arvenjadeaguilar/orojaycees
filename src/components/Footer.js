@@ -20,9 +20,9 @@ class Footer extends Component {
             </div>
             <div className="socialMedia">
               Connect with us
-              <a href="https://www.facebook.com/highoutputhq/"><FaFacebookSquare className="icon"/></a>
-              <a href="https://twitter.com/highoutputhq"><FaInstagram className="icon"/></a>
-              <a href="https://www.linkedin.com/company/high-output-ventures/"><FaTwitterSquare className="icon"/></a>
+              <a href="https://www.facebook.com/OroJaycees/"><FaFacebookSquare className="icon"/></a>
+              <a href="https://www.instagram.com/orojaycees/"><FaInstagram className="icon"/></a>
+              <a href="https://twitter.com/OroJaycees"><FaTwitterSquare className="icon"/></a>
               
             </div>
           </div>
