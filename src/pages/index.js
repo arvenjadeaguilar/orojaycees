@@ -28,42 +28,56 @@ export default class IndexPage extends Component {
           title:'Pinay Power',
           color:'#B7E3FF',
           image:require('../img/pinaypower.jpg'),
+          link:'https://medium.com/@jci.cdo2018/pinay-power-8b990b6660f2',
           description:'A national Project of JCI Philippines, Pinay Power stared with two of the United Nations Sustainable Development Goals namely: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all (#4) and Achieve gender equality and empower all women and girls #5). '
         },
         {
           title:'Peace Is Possible',
           color:'#24CD81',
           image:require('../img/peaceispossible2.jpg'),
+          link:'https://medium.com/@jci.cdo2018/peace-is-possible-132291901e8a',          
           description:'PEACE IS POSSIBLE is a JCI International Campaign that aims at opening dialogue and raising awareness of Peace.'          
         },
         {
           title:'YLEA',
           color:'#3079CD',
           image:require('../img/ylea.jpg'),
+          link:'https://medium.com/@jci.cdo2018/project-overview-2c4f35fc0a6b',          
           description:'Otherwise known as “Batang Leader Award”, the award gives due recognition to deserving public and private elementary and high school students to inspire them towards greater achievements in life.'          
         },
         {
           title:'Think Green',
           color:'#784B2C',
           image:require('../img/thinkgreen.jpg'),
+          link:'https://medium.com/@jci.cdo2018/think-green-c1f0e4367228',          
           description:'This project was conceptualized to focus on environmental sustainability. Such project aims to address to Climate Change which is serious global issue today. Some resolutions were during the JCI-UN Leadership Summit and added to be one of the UN Millennium Development Goals (UMDG).'          
         },
         {
           title:'Got Heart',
           color:'#784B2C',
           image:require('../img/gotHeart.jpg'),
+          link:'https://medium.com/@jci.cdo2018/got-heart-e29702c75590',          
           description:'Got Heart is a Community Health Awareness program of JCI Philippines which aims to promote good health and well-being in the underprivileged communities around the country through medical, dental, and surgical missions, distribution of free medicines, free eye check up and health education awareness program and counseling, as well as to provide a problem-solving formula in order to address the issues and concerns of the mind, body, spirit, and emotion.'          
         },
         {
           title:'AAGAPAY',
           color:'#784B2C',
           image:require('../img/NewOplanBannerLogo.jpg'),
+          link:'https://medium.com/@jci.cdo2018/oplan-aagapay-9f0d9a351295',          
           description:'The 4 R’s - Risk Reduction, Readiness, Response, Rehabilitation'          
+        },
+        {
+          title:'Bags to School',
+          color:'#784B2C',
+          image:require('../img/bagsforschool.jpg'),
+          link:'https://medium.com/@jci.cdo2018/bags-to-school-d5b933f5864d',          
+          description:'Bags to School (BTS) is one of the flagship projects of Junior Chamber International Philippines, Inc. This project aims to promote primary education nationwide in line with UN-SDG’s Quality Education campaign'          
         },
         {
           title:'Beyond Prison Walls',
           color:'#784B2C',
           image:require('../img/beyondPrison.jpg'),
+          link:'https://medium.com/@jci.cdo2018/beyond-prison-walls-1adea7bd8c5',          
           description:'Beyond Prison Walls is one of the flagship projects of Junior Chamber International Philippines, Inc. This project aims to help the correctional community (the people behind bars) in their total human development based on the principles of a balanced and restorative justice ; Human Rights Advocacy to the Accused, Sports, Cultural and Educational Programs and Providing them with Livelihood opportunities.'          
         },
       ]
@@ -307,7 +321,7 @@ export default class IndexPage extends Component {
                     {portfolio.description}
                   </div>
                   <div className="learnMore">
-                    <Link to="/">Learn more about {portfolio.title.toLowerCase()} <MdArrowForward/></Link> 
+                    <a href={portfolio.link}>Learn more about {portfolio.title.toLowerCase()} <MdArrowForward/></a> 
                   </div>
                 </div>
               </div>
