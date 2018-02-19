@@ -167,7 +167,7 @@ export default class IndexPage extends Component {
                     About us
                   </a>
                   
-                  <a href="https://calendar.google.com/calendar/embed?src=jci.cdo2018%40gmail.com&ctz=Asia%2FManila" target="_blank" className="navItem">
+                  <a href="https://teamup.com/kszzjvzxqiwb689zej" target="_blank" className="navItem">
                     Schedule of Activities
                   </a>
                   {/* <Link to="/studio" className="navItem">
@@ -307,7 +307,7 @@ export default class IndexPage extends Component {
                     {portfolio.description}
                   </div>
                   <div className="learnMore">
-                    <Link to="/companies">Learn more about {portfolio.title.toLowerCase()} <MdArrowForward/></Link> 
+                    <Link to="/">Learn more about {portfolio.title.toLowerCase()} <MdArrowForward/></Link> 
                   </div>
                 </div>
               </div>

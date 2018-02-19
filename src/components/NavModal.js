@@ -16,7 +16,7 @@ class NavModal extends Component {
                 <a href="/#about" onClick={()=>this.props.onClose()} className="link">
                   About Us
                 </a>
-                <a href="https://calendar.google.com/calendar/embed?src=jci.cdo2018%40gmail.com&ctz=Asia%2FManila" target="_blank" className="link" >
+                <a href="https://teamup.com/kszzjvzxqiwb689zej" target="_blank" className="link" >
                   Schedule of Activities
                 </a>
                 <a href="/#contactUs" onClick={()=>this.props.onClose()}  className="link">

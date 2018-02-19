@@ -32,22 +32,22 @@ class Footer extends Component {
                 PROJECTS
               </div>
               <div className="company">
-                <a href="https://www.identifi.com/">Spectacles</a>
+                <a href="#">Spectacles</a>
               </div>
               <div className="company">
-                <a href="http://www.oneinbox.io/">YLEA</a>
+                <a href="#">YLEA</a>
               </div>
               <div className="company">
-                <a href="https://altmanager.com/">Aagapay</a>
+                <a href="#">Aagapay</a>
               </div>
               <div className="company">
-                <a href="https://juangear.ph/">Pinay Power</a>
+                <a href="#">Pinay Power</a>
               </div>
               <div className="company">
-                <a href="http://www.probutterfly.com/">Peace Is Possible</a>
+                <a href="#">Peace Is Possible</a>
               </div>
               <div className="company">
-                <a href="http://www.probutterfly.com/">Bags to School</a>
+                <a href="#">Bags to School</a>
               </div>
             </div>
             <div className="column">
